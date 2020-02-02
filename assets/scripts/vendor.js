@@ -7,7 +7,12 @@ const divideBtn = document.getElementById('btn-divide');
 const currentResultOutput = document.getElementById('current-result');
 const currentCalculationOutput = document.getElementById('current-calculation');
 
+function resultOutput(result, text) {
+  currentResultOutput.textContent = result; 
+  currentCalculationOutput.textContent = text; //deze moet de calcHistory in
+}
+
 function outputResult(result, text) {
-  currentResultOutput.textContent = result;
+  currentResultOutput.textContent = result; 
   currentCalculationOutput.textContent = text;
 }
