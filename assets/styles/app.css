@@ -3,41 +3,47 @@
 }
 
 html {
-  font-family: 'Roboto', open-sans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
   margin: 0;
+  background: rgb(233, 233, 233);
 }
 
 header {
-  background: #023d6d;
+  background: #e6ac30;
   color: white;
-  padding: 1rem;
   text-align: center;
+  text-shadow: 4px 4px 4px #aaa;
+  padding: 1rem 1rem 1rem 0.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   width: 100%;
+  font-size: 1.5em;
+  color: rgb(68, 11, 11);
 }
+
 
 #results,
 #calculator {
   margin: 2rem auto;
   width: 40rem;
   max-width: 90%;
-  border: 1px solid #023d6d;
+  border: 1px solid #000000;
   border-radius: 10px;
   padding: 1rem;
-  color: #023d6d;
+  color: #2a2e08;
 }
 
 #results {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #calculator input {
   font: inherit;
   font-size: 3rem;
-  border: 2px solid #023d6d;
+  border: 2px solid #001c33;
   width: 10rem;
   padding: 0.15rem;
   margin: auto;
@@ -52,7 +58,7 @@ header {
 
 #calculator button {
   font: inherit;
-  background: #023d6d;
+  background: #e6ac30;
   color: white;
   border: 1px solid #023d6d;
   padding: 1rem;
@@ -77,3 +83,5 @@ header {
   margin-top: 1rem;
   text-align: center;
 }
+
+
